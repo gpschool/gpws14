@@ -1,15 +1,10 @@
 ---
-layout: page
+layout: home
 title: Gaussian Process Winter School, 2014
 tagline: Sheffield winter school on Gaussian processes
 hide: True
 ---
 
-Previous Meeting: [GPSS 2013](../gpss13/)
-
-University of Sheffield, UK
-
-13th - 16th January 2014
 
 ## Monday 13th January
 
