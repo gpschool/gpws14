@@ -1,0 +1,55 @@
+# Site settings
+title: Gaussian Process Summer School 2014
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  The 2014 Gaussian Process Summer School held at the University of Sheffield.
+baseurl: "/gpss14/" # the subpath of your site, e.g. /blog/
+url: "https://gpss.cc" # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  SheffieldML
+facebook_page: gaussianprocesssummerschool
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: gpschool/jekyll-theme
+style: gpss
+
+
+analytics:
+  google:
+    tracking_id: UA-62991754-1
+
+youtube:
+  height: 315
+  width: 560
+
+conference:
+  draft: False
+  hide_tentative: True
+  hosts:
+  short_name: GPSS
+  full_name:  Gaussian Process Summer School  
+  room: SITraN
+  venue: The University of Sheffield
+  location: Sheffield, UK
+  name: Gaussian Process Summer School
+  year: 2014
+  chairs:
+  - type: Organizers
+    people:
+    - {given: Neil, family: Lawrence, url: "http://inverseprobability.com"}
+    - {given: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+  dates:
+  - 2014-01-13
+  - 2014-01-14
+  - 2014-01-15
+  - 2014-01-16
+
+previous_meeting:
+  name: GPSS 2013
+  url: "https://gpss.cc/gpss13"
+
+# Build settings
+markdown: kramdown
